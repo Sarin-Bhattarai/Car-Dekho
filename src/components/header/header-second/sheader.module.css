@@ -1,0 +1,237 @@
+.searchContainer {
+  display: flex;
+  padding: 1em 4%;
+  justify-content: space-between;
+  gap: 2em;
+  margin-top: -15px;
+}
+.imageLink {
+  flex: 1;
+}
+.discoverDiv {
+  padding: 1em 0em;
+  display: flex;
+  flex: 3;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.searchNavbar {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+  margin-top: 15px;
+}
+.searchNavbarLi a {
+  color: #2a2a2a;
+  text-decoration: none !important;
+}
+.searchNavbarLi {
+  position: relative;
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.searchNavbarLi:hover .ServiceLink {
+  color: #029967;
+}
+.searchNavbarLi:hover .PagesLink {
+  color: #029967;
+}
+.searchNavbarLi:hover .LinkAbout {
+  color: #029967;
+}
+.searchNavbarLi:hover .dropDown {
+  transform: rotate(-180deg);
+  transition: 0.3s;
+  color: #029967;
+}
+.searchNavbarLi:hover .aboutList {
+  display: block;
+}
+.aboutList {
+  top: 100%;
+  left: -60%;
+  width: 200px;
+  z-index: 1;
+  background-color: #fbac97;
+  position: absolute;
+  border-radius: 20px;
+  font-weight: bold;
+  display: none;
+}
+
+.LinkAbout {
+  display: flex;
+  align-items: center;
+}
+.aboutListLi {
+  list-style: none;
+  margin: 1em;
+  position: relative;
+}
+.aboutListLi::before {
+  content: "";
+  background-color: #cbebe0;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 100%;
+  margin-top: 0.1em;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.3s;
+}
+.aboutListLi:hover::before {
+  transform: scaleX(1);
+}
+.aboutListLi a {
+  color: white;
+}
+
+.bar {
+  margin-right: 0.5em;
+}
+
+.mainSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 3;
+}
+
+.search {
+  display: flex;
+  padding: 0 1em;
+  height: 50px;
+  align-items: center;
+  flex: 2;
+  border: 1px solid #cbebe0;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.inputSearch {
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0 0.5em;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.cartHelp {
+  display: flex;
+  justify-content: center;
+  flex: 1.8;
+}
+
+.cart {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5em;
+  align-items: center;
+}
+
+.cartIconAmount {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.border {
+  height: 100%;
+  border: 1px solid #d3d3d3;
+}
+.cartIconAmount:hover {
+  color: #02996f;
+}
+.cartIconAmount:hover .showProduct {
+  display: block;
+}
+
+.cartIcon {
+  font-size: 2rem;
+  margin-right: 0.2em;
+}
+
+.searchIcon {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 1.9rem;
+}
+
+.clilab {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.clilab:hover .dropdownMenu {
+  display: block;
+  transition: 0.3s;
+}
+
+.clilab:hover .clilabLink,
+.clilab:hover .dropDown {
+  color: #029967;
+}
+.clilab:hover .dropDown {
+  transform: rotate(-180deg);
+  transition: 0.3s;
+  color: #029967;
+}
+
+.dropDown {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.timeHelp {
+  text-decoration: none;
+  color: black;
+}
+
+.timeHelp {
+  font-weight: bolder;
+}
+.discover {
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.discover:hover {
+  color: #02996f;
+}
+
+.timeHelp:hover {
+  color: #02996f;
+}
+
+.showProduct {
+  z-index: 2;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1em;
+  top: 150%;
+  position: absolute;
+  display: none;
+  border: 1px solid #029967;
+  width: 300px;
+  right: 0;
+  background-color: white;
+}
+.showProductcart {
+  font-size: 50px;
+  color: gray;
+}

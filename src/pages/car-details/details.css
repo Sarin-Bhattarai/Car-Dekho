@@ -1,0 +1,113 @@
+.detail {
+  min-height: 90vh;
+  margin-top: 4%;
+}
+
+.listing {
+  margin-top: 20px;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.listing p {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.separator-card-2 {
+  margin-left: 12px;
+  background-color: #d7e9f9;
+  padding: 11px 7px 5px 16px;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.single-card {
+  border: 1px solid #d3d3d3;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.single-card h1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.special h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.special h4 {
+  margin-top: 11px;
+  margin-left: 10px;
+  color: #027ce5;
+  text-decoration: underline;
+}
+
+.car-overview {
+  border: 1px solid #f0f0f0;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.car-overview-2 {
+  border: 1px solid #f0f0f0;
+  margin-top: 6px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.closer {
+  margin-top: 3px;
+  font-size: 11px;
+}
+
+.closer h2 {
+  color: #f75d34;
+  font-weight: 600;
+}
+
+.assured-benefits,
+.detail-feature,
+.carDekho {
+  margin-top: 6px;
+}
+
+.gallery-grid {
+  border: 1px solid #f0f0f0;
+  margin-top: 6px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.car-grid img {
+  width: 182px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.out-section {
+  border: 1px solid #f0f0f0;
+  margin-top: 6px;
+  border-radius: 10px;
+  padding: 15px;
+  width: fit-content;
+}

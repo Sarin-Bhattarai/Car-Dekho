@@ -1,0 +1,201 @@
+.advertise {
+  min-height: 835vh;
+  margin-top: 4%;
+}
+
+.first-section h1 {
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: bold;
+}
+
+.first-section p {
+  font-size: 20px;
+}
+
+.adv-card-row {
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.adv-card {
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.adv-card h4 {
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.second-section,
+.third-section,
+.fourth-section,
+.sixth-section,
+.seventh-section,
+.eighth-section {
+  margin-top: 20%;
+}
+
+.fifth-section {
+  margin-top: 10%;
+}
+
+.second-section h1,
+.fourth-section h1,
+.fifth-section h1,
+.seventh-section h1,
+.eighth-section h1,
+.wrapper h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.third-section h1 {
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 700;
+}
+
+.third-section p {
+  font-size: 18px;
+  text-align: justify;
+  opacity: 0.8;
+  line-height: 32px;
+}
+
+.wrapper p {
+  font-size: 18px;
+  text-align: center;
+  opacity: 0.8;
+  line-height: 32px;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+.wrapper button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+.multi-crousel-2 {
+  margin-top: 25px;
+}
+
+.multi-crousel-2 img {
+  width: 150px;
+  height: 110px;
+  object-fit: contain;
+}
+
+.single-card-3 {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.goodNews {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.multi-crousel-3 {
+  margin-top: 6%;
+}
+
+.multi-crousel-3 h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.gap-card {
+  margin-top: 8%;
+  border: 1px solid #ffe98f;
+  background-color: #ffe98f;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.gap-card h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.gap-card p {
+  font-size: 18px;
+}
+
+.sixth-section p {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.sixth-section button {
+  margin-top: 30px;
+}
+
+.imp-msg {
+  margin-top: 8%;
+}
+
+.imp-msg h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.imp-msg p {
+  font-size: 15px;
+}
+
+.seventh-section p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.close-image {
+  margin-top: 6%;
+}
+
+.close-image p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.close-image h2 {
+  margin-top: 20px;
+}
+
+.loop-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.eighth-section h1 {
+  font-size: 35px;
+  line-height: 65px;
+  font-weight: 700;
+}
+
+.eighth-section p {
+  font-size: 17px;
+  text-align: justify;
+  line-height: 32px;
+}
+
+.img-list {
+  margin-top: 5%;
+}
+
+.wrapper {
+  margin-top: 10%;
+  margin-bottom: 50px;
+}

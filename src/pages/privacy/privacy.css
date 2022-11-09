@@ -1,0 +1,21 @@
+.privacy {
+  min-height: 90vh;
+  margin-top: 4%;
+}
+
+.left-privacy {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.left-privacy p {
+  color: black;
+  text-align: justify;
+  line-height: 33px;
+}
+
+.left-privacy span {
+  font-weight: 800;
+  opacity: 0.8;
+}

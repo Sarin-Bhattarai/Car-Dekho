@@ -1,0 +1,44 @@
+.blog {
+  min-height: 90vh;
+  margin-top: 4%;
+}
+
+.blog-row h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.blog-row {
+  margin-bottom: 27px;
+}
+
+.blog-list {
+  margin-top: 15px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.blog-list img {
+  width: 220px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.blog-list h2 {
+  font-size: 15px;
+  margin-left: 14px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.row-2 h2 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.row-2 img {
+  width: 240px;
+  height: 140px;
+  object-fit: cover;
+}

@@ -1,0 +1,12 @@
+.detail-icon {
+  text-align: center;
+}
+
+.total-info {
+  opacity: 0.8;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
+}

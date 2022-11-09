@@ -1,0 +1,17 @@
+.faq {
+  min-height: 90vh;
+  margin-top: 4%;
+}
+
+.faq-row-wrapper {
+  border-radius: 5px;
+}
+
+.row-content {
+  margin-bottom: 15px;
+}
+
+.row-content-text {
+  text-align: justify;
+  opacity: 0.8;
+}

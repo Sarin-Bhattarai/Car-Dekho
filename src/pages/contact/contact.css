@@ -1,0 +1,81 @@
+.contact {
+  min-height: 150vh;
+  margin-top: 4%;
+}
+
+.heading h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.contact-card {
+  border: 1px solid #d3d3d3;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+}
+
+.phn h2 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.mailUs {
+  margin-top: 20px;
+}
+
+.contact-form {
+  margin-top: 10px;
+}
+
+.contact-form .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .inputBox input,
+.contact-form .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  resize: none;
+  height: 50px;
+}
+
+.contact-form .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 15px;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+  opacity: 0.8;
+}
+
+.contact-form .inputBox textarea {
+  height: 100px;
+}
+
+.contact-form .inputBox input:focus ~ span,
+.contact-form .inputBox textarea:focus ~ span {
+  color: #666;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contact-submit {
+  margin-top: 25px;
+  margin-left: 30%;
+}
+
+hr.hr {
+  border: 1px solid #e3f0f0;
+  margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+.home {
+  min-height: 200vh;
+  margin-top: 1%;
+}
+
+.banner {
+  height: 500px;
+  background: url("../../images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.home-search {
+  float: left;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: white;
+  width: 23%;
+}
+
+.home-search h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.home span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.select {
+  margin-top: 20px;
+}
+
+.arrow {
+  margin-top: 20px;
+  float: right;
+}
+
+.arrow h4 {
+  opacity: 0.7;
+}
+
+.sponsor-card {
+  border: 1px solid #d3d3d3;
+  margin-top: 15%;
+  padding: 15px;
+  background-color: white;
+}
+
+.sponsor-card h4 {
+  font-size: 17px;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+.multi-crousel {
+  margin-top: 15px;
+}
+
+.multi-crousel img {
+  width: 281px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.multi-crousel h2 {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.single-card-2 {
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  margin-right: 10px;
+}

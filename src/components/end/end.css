@@ -1,0 +1,15 @@
+.end {
+  margin-top: 30px;
+  min-height: 20vh;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.end h1 {
+  font-size: 20px;
+}
+
+.end p {
+  font-size: 15px;
+  opacity: 0.8;
+}

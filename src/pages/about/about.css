@@ -1,0 +1,34 @@
+.about {
+  min-height: 200vh;
+  margin-top: 4%;
+}
+
+.about-row {
+  margin-top: 6%;
+}
+
+.about-row h1 {
+  font-size: 28px;
+}
+
+.about-row p {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.about-row h6 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #5ab8ed;
+}
+
+.btn-primary {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #f75d34;
+  background-color: #f75d34;
+  color: white;
+  font-weight: 600;
+  width: 40%;
+  cursor: pointer;
+}

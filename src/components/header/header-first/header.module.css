@@ -13,9 +13,14 @@
   width: 100%;
   background-color: green;
 }
+
+.rightNavDiv {
+  padding-top: 12px;
+}
+
 .rightNavUl {
-  align-items: center;
   display: flex;
+  align-items: center;
 }
 .rightNavUl li {
   list-style: none;

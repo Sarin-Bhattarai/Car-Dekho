@@ -1,0 +1,39 @@
+.care {
+  min-height: 90vh;
+  margin-top: 4%;
+}
+
+.care-card {
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+.care-card h4 {
+  margin-top: 15px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.care-card img {
+  width: 110px;
+  height: 60px;
+}
+
+.care-card-2 {
+  background-color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+.care-card-2 h4 {
+  margin-top: 15px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.care-card-2 img {
+  width: 110px;
+  height: 60px;
+}

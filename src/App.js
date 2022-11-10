@@ -14,7 +14,6 @@ import Terms from "./pages/terms & condition/Terms";
 import Privacy from "./pages/privacy/Privacy";
 import Care from "./support/care/Care";
 import Career from "./support/career/Career";
-import Feedback from "./support/feedback/Feedback";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeaderSecond from "./components/header/header-second/HeaderSecond";
 
@@ -36,7 +35,6 @@ const App = () => {
             <Route path="/contact" exact element={<Contact />} />
             <Route path="/careers" exact element={<Career />} />
             <Route path="/care" exact element={<Care />} />
-            <Route path="/feedback" exact element={<Feedback />} />
             <Route path="/advertise" exact element={<Advertise />} />
             <Route path="/cars/detail" exact element={<CarDetails />} />
           </Routes>

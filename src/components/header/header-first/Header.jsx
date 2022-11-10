@@ -29,7 +29,7 @@ function Header() {
               <span
                 style={{
                   marginRight: "0.8em",
-                  marginTop: "4px",
+                  marginTop: "5px",
                 }}
               >
                 <MdAccountCircle size={20} />

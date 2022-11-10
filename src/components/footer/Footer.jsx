@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./footer.css";
-import { Row } from "antd";
+import { Row, Modal, Checkbox } from "antd";
 import { Link } from "react-router-dom";
 import Apple from "../../images/AppleLogo.png";
 import Play from "../../images/GooglePlay.png";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
   return (
     <footer>
       <div className="container-2">
@@ -60,7 +70,110 @@ const Footer = () => {
                   Customer care
                 </Link>
               </li>
+              <li>
+                <Link onClick={showModal} className="footer-link">
+                  Feedback
+                </Link>
+              </li>
             </ul>
+            <Modal
+              title="Feedback"
+              open={isModalOpen}
+              onOk={handleOk}
+              onCancel={handleCancel}
+            >
+              <div className="contact-form">
+                <div
+                  style={{
+                    display: "flex",
+                  }}
+                >
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span>Enter Name</span>
+                  </div>
+                  &nbsp;&nbsp;&nbsp;
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span>Enter Email</span>
+                  </div>
+                </div>
+              </div>
+              <div className="contact-form">
+                <div
+                  style={{
+                    display: "flex",
+                  }}
+                >
+                  <div className="inputBox">
+                    <input type="phone" name="" required />
+                    <span>Enter Mobile Number</span>
+                  </div>
+                  &nbsp;&nbsp;&nbsp;
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span>Enter City</span>
+                  </div>
+                </div>
+                <div className="inputBox">
+                  <textarea />
+                  <span>Please share your feed what can we improve?</span>
+                </div>
+              </div>
+
+              <div className="mt-20">
+                <input type="file" name="" required />
+                <p
+                  style={{
+                    opacity: 0.8,
+                    fontSize: "13px",
+                  }}
+                >
+                  Upload .jpg, .png files only
+                </p>
+              </div>
+
+              <div
+                className="contact-submit"
+                style={{
+                  marginLeft: "25%",
+                }}
+              >
+                <Checkbox>
+                  <p
+                    style={{
+                      fontSize: "15px",
+                    }}
+                  >
+                    I agree to{" "}
+                    <span
+                      style={{
+                        color: "#5496C1",
+                        fontWeight: "600",
+                      }}
+                    >
+                      Terms & Conditions
+                    </span>{" "}
+                    <br />
+                    Please agree to terms and
+                  </p>
+                  <button
+                    style={{
+                      backgroundColor: "#F75D34",
+                      color: "#fff",
+                      padding: "14px 14px",
+                      border: "#F75D34",
+                      borderRadius: "7px",
+                      width: "70%",
+                      fontWeight: "bold",
+                      marginLeft: "10%",
+                    }}
+                  >
+                    Submit
+                  </button>
+                </Checkbox>
+              </div>
+            </Modal>
           </div>
           <div className="connect-with-us">
             <h1>CONNECT WITH US</h1>
@@ -68,8 +181,6 @@ const Footer = () => {
             <p>support@cardekho.com</p>
             <p>Dealer solutions</p>
             <p>Used Cars Business</p>
-            <p>Contact Us</p>
-            <p>Feedback</p>
           </div>
           <div>
             <h1>EXPERIENCE CARDEKHO APP</h1>

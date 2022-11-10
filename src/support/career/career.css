@@ -1,0 +1,79 @@
+.career {
+  min-height: 90vh;
+  margin-top: 4%;
+}
+
+.support-heading {
+  text-align: center;
+}
+
+.support-heading h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.image-grid {
+  margin-top: 4%;
+}
+
+.first-image {
+  grid-area: first-image;
+}
+
+.first-image img {
+  width: 100%;
+}
+
+.second-image {
+  grid-area: second-image;
+}
+
+.second-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.third-image {
+  grid-area: third-image;
+}
+
+.third-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "first-image second-image" "first-image third-image";
+  grid-gap: 10px;
+}
+
+.emp-card {
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  padding-left: 25px;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.emp-card h6 {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.emp-card p {
+  opacity: 0.8;
+  margin-top: 30px;
+}
+
+.emp-card h5 {
+  font-size: 18px;
+  margin-top: 27px;
+  color: #f75d34;
+  cursor: pointer;
+}

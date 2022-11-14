@@ -5,7 +5,7 @@ import End from "../../components/end/End";
 const Privacy = () => {
   return (
     <section className="privacy">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h1>Privacy and Policy</h1>
         </div>

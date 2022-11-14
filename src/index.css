@@ -23,6 +23,10 @@ body {
   margin: auto;
 }
 
+.main-container {
+  padding: 1em 4%;
+}
+
 ul {
   font-weight: bold;
   font-size: 17px;

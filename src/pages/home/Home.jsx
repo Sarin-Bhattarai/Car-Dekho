@@ -1,11 +1,12 @@
 import React from "react";
 import "./home.css";
-import { Row, Radio } from "antd";
+import { Row, Radio, Tabs } from "antd";
 import { MdArrowRightAlt } from "react-icons/md";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Selling from "../../images/caru.jpg";
 import End from "../../components/end/End";
+const { TabPane } = Tabs;
 
 const Home = () => {
   const responsive = {
@@ -33,104 +34,140 @@ const Home = () => {
         <div className="home-search">
           <h1>Find your right car</h1>
 
-          <Row>
-            <button
-              style={{
-                backgroundColor: "#24272C",
-                color: "#fff",
-                padding: "10px 10px",
-                border: "#24272C",
-                borderRadius: "5px",
-                width: "48%",
-                fontWeight: "bold",
-                cursor: "pointer",
-              }}
-            >
-              New Car
-            </button>
-            &nbsp;
-            <button
-              style={{
-                backgroundColor: "#fff",
-                color: "black",
-                padding: "10px 10px",
-                border: "1px solid gray",
-                borderRadius: "5px",
-                width: "48%",
-                fontWeight: "bold",
-                cursor: "pointer",
-              }}
-            >
-              Used Car
-            </button>
-          </Row>
+          <Tabs defaultActiveKey="1">
+            <TabPane tab="New Car" key="11">
+              <Row
+                style={{
+                  marginTop: "20px",
+                }}
+              >
+                <Radio>By Budget</Radio>
+                <Radio>By Brand</Radio>
+              </Row>
 
-          <Row
-            style={{
-              marginTop: "20px",
-            }}
-          >
-            <Radio>By Budget</Radio>
-            <Radio>By Brand</Radio>
-          </Row>
+              <div className="select">
+                <select
+                  style={{
+                    width: "100%",
+                    height: "45px",
+                    border: "1px solid #d3d3d3",
+                    padding: "10px",
+                    cursor: "pointer",
+                  }}
+                >
+                  <option>Select Budget</option>
+                  <option>Jack</option>
+                  <option>Lucy</option>
+                </select>
+                <select
+                  style={{
+                    width: "100%",
+                    height: "45px",
+                    border: "1px solid #d3d3d3",
+                    padding: "10px",
+                    cursor: "pointer",
+                  }}
+                >
+                  <option>All vehicles Type</option>
+                  <option>Jack</option>
+                  <option>Lucy</option>
+                </select>
+              </div>
+              <button
+                style={{
+                  backgroundColor: "#F75D34",
+                  color: "#fff",
+                  padding: "14px 14px",
+                  border: "#F75D34",
+                  borderRadius: "7px",
+                  width: "100%",
+                  fontWeight: "bold",
+                  marginTop: "30px",
+                  cursor: "pointer",
+                }}
+              >
+                Search
+              </button>
 
-          <div className="select">
-            <select
-              style={{
-                width: "100%",
-                height: "45px",
-                border: "1px solid #d3d3d3",
-                padding: "10px",
-                cursor: "pointer",
-              }}
-            >
-              <option>Select Budget</option>
-              <option>Jack</option>
-              <option>Lucy</option>
-            </select>
-            <select
-              style={{
-                width: "100%",
-                height: "45px",
-                border: "1px solid #d3d3d3",
-                padding: "10px",
-                cursor: "pointer",
-              }}
-            >
-              <option>All vehicles Type</option>
-              <option>Jack</option>
-              <option>Lucy</option>
-            </select>
-          </div>
-          <button
-            style={{
-              backgroundColor: "#F75D34",
-              color: "#fff",
-              padding: "14px 14px",
-              border: "#F75D34",
-              borderRadius: "7px",
-              width: "100%",
-              fontWeight: "bold",
-              marginTop: "30px",
-              cursor: "pointer",
-            }}
-          >
-            Search
-          </button>
+              <Row className="arrow">
+                <h4>Advanced Search</h4>
+                <MdArrowRightAlt
+                  style={{
+                    opacity: "0.7",
+                  }}
+                  size={25}
+                />
+              </Row>
+            </TabPane>
+            <TabPane tab="Used Car" key="12">
+              <Row
+                style={{
+                  marginTop: "20px",
+                }}
+              >
+                <Radio>By Budget</Radio>
+                <Radio>By Model</Radio>
+              </Row>
 
-          <Row className="arrow">
-            <h4>Advanced Search</h4>
-            <MdArrowRightAlt
-              style={{
-                opacity: "0.7",
-              }}
-              size={25}
-            />
-          </Row>
+              <div className="select">
+                <select
+                  style={{
+                    width: "100%",
+                    height: "45px",
+                    border: "1px solid #d3d3d3",
+                    padding: "10px",
+                    cursor: "pointer",
+                  }}
+                >
+                  <option>Select Budget</option>
+                  <option>Jack</option>
+                  <option>Lucy</option>
+                </select>
+                <select
+                  style={{
+                    width: "100%",
+                    height: "45px",
+                    border: "1px solid #d3d3d3",
+                    padding: "10px",
+                    cursor: "pointer",
+                  }}
+                >
+                  <option>Select City</option>
+                  <option>Jack</option>
+                  <option>Lucy</option>
+                </select>
+              </div>
+              <button
+                style={{
+                  backgroundColor: "#F75D34",
+                  color: "#fff",
+                  padding: "14px 14px",
+                  border: "#F75D34",
+                  borderRadius: "7px",
+                  width: "100%",
+                  fontWeight: "bold",
+                  marginTop: "30px",
+                  cursor: "pointer",
+                }}
+              >
+                Search
+              </button>
+
+              <Row className="arrow">
+                <h4>Advanced Search</h4>
+                <MdArrowRightAlt
+                  style={{
+                    opacity: "0.7",
+                  }}
+                  size={25}
+                />
+              </Row>
+            </TabPane>
+          </Tabs>
         </div>
       </div>
 
-      <div className="container-2">
+      <div className="main-container">
         <div className="sponsor-card">
           <div className="heading">
             <h1

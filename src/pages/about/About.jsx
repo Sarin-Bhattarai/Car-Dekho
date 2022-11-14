@@ -9,7 +9,7 @@ import End from "../../components/end/End";
 const About = () => {
   return (
     <section className="about">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h1
             style={{

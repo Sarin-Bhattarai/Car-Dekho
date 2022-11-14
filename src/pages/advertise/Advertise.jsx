@@ -58,7 +58,7 @@ const Advertise = () => {
   };
   return (
     <section className="advertise">
-      <div className="container">
+      <div className="main-container">
         <Row className="first-section" gutter={55}>
           <Col span={10}>
             <Fade left>

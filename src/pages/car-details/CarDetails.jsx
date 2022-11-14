@@ -27,19 +27,31 @@ const CarDetails = () => {
 
   return (
     <section className="detail">
-      <div className="container">
+      <div className="main-container">
         <Row gutter={52}>
-          <Col span={14}>
+          <Col span={16}>
             <div className="crousel">
               <Slide>
                 <div className="each-slide-effect">
-                  <div style={{ backgroundImage: `url(${images[0]})` }}></div>
+                  <div
+                    style={{
+                      backgroundImage: `url(${images[0]})`,
+                    }}
+                  ></div>
                 </div>
                 <div className="each-slide-effect">
-                  <div style={{ backgroundImage: `url(${images[1]})` }}></div>
+                  <div
+                    style={{
+                      backgroundImage: `url(${images[1]})`,
+                    }}
+                  ></div>
                 </div>
                 <div className="each-slide-effect">
-                  <div style={{ backgroundImage: `url(${images[2]})` }}></div>
+                  <div
+                    style={{
+                      backgroundImage: `url(${images[2]})`,
+                    }}
+                  ></div>
                 </div>
               </Slide>
             </div>
@@ -758,7 +770,7 @@ const CarDetails = () => {
             </div>
           </Col>
 
-          <Col span={10}>
+          <Col span={8}>
             <div className="single-card">
               <Row
                 style={{

@@ -75,8 +75,8 @@
 }
 
 .image-cards img {
-  width: 260px;
-  height: 150px;
+  width: 331px;
+  height: 190px;
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .car-card img {
-  width: 260px;
+  width: 334px;
   height: 180px;
 }
 
@@ -173,7 +173,7 @@
   border: 1px solid #e3f4ff;
   background-color: #e3f4ff;
   border-radius: 10px;
-  width: 116%;
+  width: 100%;
   padding: 10px;
   padding-top: 15px;
   height: 120px;

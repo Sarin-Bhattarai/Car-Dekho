@@ -8,8 +8,6 @@
   background: url("../../images/banner.png");
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1440px;
-  margin: auto;
 }
 
 .home-search {
@@ -17,7 +15,7 @@
   border: 1px solid white;
   border-radius: 5px;
   padding: 20px;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 5%;
   background-color: white;
   width: 23%;
@@ -48,7 +46,7 @@
 
 .sponsor-card {
   border: 1px solid #d3d3d3;
-  margin-top: 15%;
+  margin-top: 5%;
   padding: 15px;
   background-color: white;
 }
@@ -64,8 +62,8 @@
 }
 
 .multi-crousel img {
-  width: 281px;
-  height: 160px;
+  width: 331px;
+  height: 170px;
   object-fit: cover;
 }
 

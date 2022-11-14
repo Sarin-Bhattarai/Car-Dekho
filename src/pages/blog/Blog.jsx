@@ -13,7 +13,7 @@ import End from "../../components/end/End";
 const Blog = () => {
   return (
     <section className="blog">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h1
             style={{

@@ -58,9 +58,9 @@ const Car = () => {
   const navigate = useNavigate();
   return (
     <section className="car">
-      <div className="container">
+      <div className="main-container">
         <Row gutter={52}>
-          <Col span={8}>
+          <Col span={6}>
             <div className="collapse">
               <Row
                 style={{
@@ -1155,7 +1155,7 @@ const Car = () => {
               </div>
             </div>
           </Col>
-          <Col span={16}>
+          <Col span={18}>
             <div className="heading">
               <h1>903 Second Hand Cars in Ahmedabad</h1>
               <p>
@@ -1554,7 +1554,7 @@ const Car = () => {
             <div className="seprator">
               <img
                 style={{
-                  width: "117%",
+                  width: "100%",
                 }}
                 src={Currated}
                 alt="separator"

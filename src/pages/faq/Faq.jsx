@@ -49,7 +49,7 @@ const Faqs = () => {
   };
   return (
     <section className="faq">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h3>FAQs Section</h3>
           <h1

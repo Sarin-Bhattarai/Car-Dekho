@@ -8,7 +8,7 @@ import End from "../../components/end/End";
 const Care = () => {
   return (
     <section className="care">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h1
             style={{

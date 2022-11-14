@@ -5,7 +5,7 @@ import End from "../../components/end/End";
 const Terms = () => {
   return (
     <section className="terms">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h1>Terms and Condition</h1>
         </div>

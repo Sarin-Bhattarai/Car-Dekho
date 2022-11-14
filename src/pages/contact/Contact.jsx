@@ -7,7 +7,7 @@ import End from "../../components/end/End";
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="container">
+      <div className="main-container">
         <div className="heading">
           <h1
             style={{
@@ -20,7 +20,7 @@ const Contact = () => {
 
         <div className="contact-card">
           <Row gutter={52}>
-            <Col span={10}>
+            <Col span={8}>
               <Row>
                 <MdCall
                   style={{
@@ -78,7 +78,7 @@ const Contact = () => {
                 support@cardekho.com
               </p>
             </Col>
-            <Col span={14}>
+            <Col span={16}>
               <h4>LET US CONTACT YOU</h4>
 
               <div className="contact-form">
